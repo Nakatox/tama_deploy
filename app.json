@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e35298f4-c02f-4d6a-b8b3-70d125a966e8"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.nakatox.tamagotchi"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -33,6 +35,9 @@
       "eas": {
         "projectId": "e35298f4-c02f-4d6a-b8b3-70d125a966e8"
       }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
